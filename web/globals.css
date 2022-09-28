@@ -1,0 +1,62 @@
+html {
+  scrollbar-gutter: stable;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+html.dark {
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: ui-serif, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333333;
+}
+
+.dark body {
+  background-color: #111111;
+  color: #DDDDDD;
+}
+
+main {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 0.2rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 0.1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
