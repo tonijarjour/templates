@@ -18,13 +18,13 @@ html.dark {
 
 body {
   font-family: ui-serif, serif;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #333333;
 }
 
 .dark body {
   background-color: #111111;
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 main {
