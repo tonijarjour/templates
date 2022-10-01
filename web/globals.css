@@ -4,6 +4,12 @@ html {
   -moz-osx-font-smoothing: auto;
 }
 
+@media (min-width: 1024px) {
+  html {
+    font-size: 24px;
+  }
+}
+
 html.dark {
   color-scheme: dark;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +18,7 @@ html.dark {
 
 body {
   font-family: ui-serif, serif;
+  background-color: #FFFFFF;
   color: #333333;
 }
 
