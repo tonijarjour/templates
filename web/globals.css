@@ -4,27 +4,29 @@ html {
   -moz-osx-font-smoothing: auto;
 }
 
+body {
+  font-family: ui-serif, serif;
+  background-color: #ffffff;
+  color: #262626;
+}
+
 @media (min-width: 1024px) {
   html {
     font-size: 24px;
   }
 }
 
-html.dark {
-  color-scheme: dark;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-body {
-  font-family: ui-serif, serif;
-  background-color: #ffffff;
-  color: #333333;
-}
-
-.dark body {
-  background-color: #111111;
-  color: #dddddd;
+  body {
+    background-color: #171717;
+    color: #d4d4d4;
+  }
 }
 
 main {
