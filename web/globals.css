@@ -33,9 +33,9 @@ main {
   max-width: 65ch;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  padding-top: 1.1rem;
 }
 
 h1,
@@ -48,25 +48,34 @@ h6 {
 }
 
 h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 0.3rem;
 }
 
 h2 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  margin-bottom: 0.2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 0.85rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
-  margin-bottom: 0.1rem;
 }
 
 p {
-  margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p + h2 {
+  margin-top: 2rem;
+}
+
+p + h3,
+h2 + h3 {
+  margin-top: -0.25rem;
 }
